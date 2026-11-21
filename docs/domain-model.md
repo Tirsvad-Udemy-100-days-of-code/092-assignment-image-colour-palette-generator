@@ -1,0 +1,86 @@
+# Domain Model: Image Colour Palette Generator
+
+## Metadata
+
+| Key | Value |
+| --- | --- |
+| ID | DM-002 |
+| CrossReference | [DM-001], [UC-001] |
+| Language | en |
+| Domain | it |
+
+## Version History
+
+| Date | Status | Author | Reviewer | Change | Commit |
+| --- | --- | --- | --- | --- | --- |
+| 2026-11-21 | Proposed | S01 | S01 | First edition: adds the concepts of DM-001 (UC-001) | [64ca317] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-018 Go; stand-in review, not independent | [64ca317] |
+
+---
+
+## Purpose
+
+The project Domain Model: the concepts of every use case in the visitor's words. It holds the additions of [DM-001] (UC-001), the only use case, so the design and the code name
+things the way S02 participants read them (CN-003, CN-004).
+
+## Diagram
+
+```plantuml
+@startuml
+hide circle
+hide methods
+skinparam classBackgroundColor #CDEFD3
+
+class Image {
+  width : whole number
+  height : whole number
+  size in megabytes : decimal
+}
+class Pixel {
+  red : 0..255
+  green : 0..255
+  blue : 0..255
+  opacity : 0..255
+}
+class Colour {
+  red : 0..255
+  green : 0..255
+  blue : 0..255
+  HEX code : text
+}
+class "Colour Step" as ColourStep {
+  width : 1..64
+}
+class Palette {
+  number of colours : 0..10
+}
+class "Palette Entry" as PaletteEntry {
+  rank : 1..10
+  share in percent : decimal
+}
+
+Image "1" *-- "1..*" Pixel : is made of >
+Pixel "1..*" --> "1" Colour : is seen as >
+ColourStep "1" --> "1..*" Colour : groups shades into >
+Image "1" -- "1" Palette : is summarised by >
+Palette "1" *-- "0..10" PaletteEntry : lists >
+PaletteEntry "0..*" --> "1" Colour : names >
+@enduml
+```
+
+## Concepts
+
+| Concept | Meaning | Source |
+| --- | --- | --- |
+| Image | The picture the visitor gives | UC-001 steps 1 and 3 |
+| Pixel | One dot of the image with its colour and opacity; a pixel with opacity below 128 is transparent | UC-001 step 3, BR-1 |
+| Colour | A colour a person sees, written as a HEX code | UC-001 steps 4 and 5 |
+| Colour Step | How close two shades must be to count as one colour | UC-001 step 1, BR-2 |
+| Palette | The most common colours of one image | UC-001 step 5, BR-3 |
+| Palette Entry | One colour of the palette, its rank and how much of the image it covers | UC-001 step 5 |
+
+---
+
+[DM-001]: use-cases/uc-001-get-colour-palette/dm.md
+[UC-001]: use-cases/uc-001-get-colour-palette/uc.md
+[64ca317]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/commit/64ca317231ae27999f78d63c2226505b4905d226

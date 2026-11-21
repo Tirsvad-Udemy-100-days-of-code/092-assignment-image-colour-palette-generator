@@ -46,6 +46,8 @@ only runtime dependencies are NumPy and Pillow.
 | `src/colour_palette/constants.py` | Every constant: number of colours, bucket size, upload limit, host and port |
 | `tests/unit/`, `tests/integration/` | pytest tests; the integration tests run the server on `127.0.0.1` |
 | `docs/` | Project documents; `docs/images/` holds the screenshots |
+| `docs/use-cases/uc-001-get-colour-palette/` | The use case and its design: DM, SSD, OC, SD and DCD |
+| `docs/adr/` | Architecture decisions: standard library web server, downscale and quantise |
 
 The table shows the finished layout: step 2 adds the package, `constants.py`
 and a smoke test, step 4 the domain, application and infrastructure layers, and
@@ -112,6 +114,7 @@ page per step that explains what was learned.
 | --- | --- | --- | --- |
 | 1 | MIL-001 Baseline | Business case, stakeholders, project plan and milestones | [01-baseline.png](docs/images/01-baseline.png) |
 | 2 | MIL-002 Scaffold | `pyproject.toml`, `constants.py`, smoke test, `.gitignore`, `.editorconfig`, `Doxyfile`, this README | [02-scaffold-tests.png](docs/images/02-scaffold-tests.png) |
+| 3 | MIL-003 Design | Use case UC-001, ADR-0001 and ADR-0002, domain model, system sequence diagram, operation contract, sequence diagram and design class diagram | [03-design-use-case.png](docs/images/03-design-use-case.png) |
 
 ![Step 2: the smoke tests pass](docs/images/02-scaffold-tests.png)
 
@@ -134,6 +137,8 @@ GNU Affero General Public License v3.0 or later, see [LICENSE](LICENSE).
 | [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
 | [Project Plan][PP-001] | The gateways and their schedule |
 | [Milestones][milestones] | One document per gateway: Go/No-Go criteria and tasks |
+| [Use case UC-001][UC-001] | The user goal and its design diagrams |
+| [Design Class Diagram][DCD-002] | The classes and layers of the code |
 | [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
 | [Framework README][framework-readme] | The framework this project uses |
 | [Framework changelog][framework-changelog] | What changed in each framework release |
@@ -148,6 +153,8 @@ GNU Affero General Public License v3.0 or later, see [LICENSE](LICENSE).
 [SA-001]: ./docs/stakeholder-analysis.md
 [PP-001]: ./docs/project-plan.md
 [milestones]: ./docs/milestones/
+[UC-001]: ./docs/use-cases/uc-001-get-colour-palette/uc.md
+[DCD-002]: ./docs/dcd.md
 [registry]: ./docs/artifact-registry.md
 [framework-readme]: ./framework/README.md
 [framework-changelog]: ./framework/CHANGELOG.md
