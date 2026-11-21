@@ -91,8 +91,19 @@ Leave the environment with `deactivate`. The `.venv` folder is in `.gitignore`.
 
 ## ▶️ Run
 
-Not yet: the website arrives in step 5 (MIL-005). At this step the package
-installs and its smoke tests run, see [Tests](#-tests).
+With the virtual environment active:
+
+```bash
+python -m colour_palette
+```
+
+Open <http://127.0.0.1:8000> in a browser. Stop the server with `Ctrl+C`.
+Use `--port 8080` for another port, or `--host 0.0.0.0` to reach it from other
+machines on your network. `colour-palette` is a shortcut for the same command.
+
+Uploads are limited to 10 MB and are never stored; the image is read in memory
+and dropped after the page is sent. The server is Python's `http.server`, meant
+for local use, not for the open internet (ADR-0001).
 
 ## 🧪 Tests
 
@@ -101,6 +112,9 @@ python -m pytest
 ```
 
 With coverage: `python -m pytest --cov=colour_palette`.
+
+The tests build their images in memory, read no files and use no network
+besides the loopback server started by the integration tests.
 
 Build the API documentation (optional): run `doxygen` in the repository root and
 open `docs/doxygen/html/index.html`.
@@ -116,8 +130,15 @@ page per step that explains what was learned.
 | 2 | MIL-002 Scaffold | `pyproject.toml`, `constants.py`, smoke test, `.gitignore`, `.editorconfig`, `Doxyfile`, this README | [02-scaffold-tests.png](docs/images/02-scaffold-tests.png) |
 | 3 | MIL-003 Design | Use case UC-001, ADR-0001 and ADR-0002, domain model, system sequence diagram, operation contract, sequence diagram and design class diagram | [03-design-use-case.png](docs/images/03-design-use-case.png) |
 | 4 | MIL-004 Engine | Pillow image reader, NumPy colour counting (`find_top_colours`), `PaletteService` and their unit tests | [04-engine-tests.png](docs/images/04-engine-tests.png) |
+| 5 | MIL-005 Website | Upload form, result page with swatches and HEX codes, error pages, web tests | [05-website-top-ten-colours.png](docs/images/05-website-top-ten-colours.png) |
 
-![Step 2: the smoke tests pass](docs/images/02-scaffold-tests.png)
+The website after step 5, the upload page:
+
+![Upload page](docs/images/05-website-upload-form.png)
+
+The top 10 colours of the sample image (`docs/images/sample-sunset.png`):
+
+![Top 10 colours](docs/images/05-website-top-ten-colours.png)
 
 ## 📄 License
 
