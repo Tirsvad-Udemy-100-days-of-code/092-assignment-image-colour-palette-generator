@@ -11,8 +11,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-017 Go; stand-in review, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [bc03eb7] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-017 Go; stand-in review, not independent | [bc03eb7] |
 
 ---
 
@@ -134,3 +134,4 @@ ColourShare ..> colour
 [ADR-0001]: ../../adr/adr-0001-standard-library-web-server.md
 [ADR-0002]: ../../adr/adr-0002-downscale-and-quantise.md
 [DCD-002]: ../../dcd.md
+[bc03eb7]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/bc03eb7b3cde8c44ce99b8ebf9504f5672cfa2d3

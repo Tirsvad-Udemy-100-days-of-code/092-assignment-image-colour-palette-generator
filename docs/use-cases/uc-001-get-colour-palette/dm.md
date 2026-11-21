@@ -13,8 +13,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-013 Go; stand-in review, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [b857418] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-013 Go; stand-in review, not independent | [b857418] |
 
 ---
 
@@ -84,3 +84,4 @@ PaletteEntry "0..*" --> "1" Colour : names >
 [UC-001]: uc.md
 [SSD-001]: ssd.md
 [DM-002]: ../../domain-model.md
+[b857418]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/b857418b24c89c414391edbb11e90d3fa7b5c695

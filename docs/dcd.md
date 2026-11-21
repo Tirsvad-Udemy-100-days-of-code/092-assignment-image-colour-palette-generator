@@ -11,8 +11,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition: adds the design of DCD-001 (UC-001) | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-019 Go; stand-in review, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition: adds the design of DCD-001 (UC-001) | [1674101] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-019 Go; stand-in review, not independent | [1674101] |
 
 ---
 
@@ -132,3 +132,4 @@ ColourShare ..> colour
 [DM-002]: domain-model.md
 [SD-001]: use-cases/uc-001-get-colour-palette/sd.md
 [OC-001]: use-cases/uc-001-get-colour-palette/oc.md
+[1674101]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/1674101ae5f672f315e1c957308be6323d829faf

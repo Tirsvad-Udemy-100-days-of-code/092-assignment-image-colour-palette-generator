@@ -11,8 +11,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-016 Go; stand-in review, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [d082ab0] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-016 Go; stand-in review, not independent | [d082ab0] |
 
 ---
 
@@ -105,3 +105,4 @@ deactivate Handler
 [DCD-001]: dcd.md
 [ADR-0001]: ../../adr/adr-0001-standard-library-web-server.md
 [ADR-0002]: ../../adr/adr-0002-downscale-and-quantise.md
+[d082ab0]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/d082ab02c34020419149be1c4f6567dcf70f7174

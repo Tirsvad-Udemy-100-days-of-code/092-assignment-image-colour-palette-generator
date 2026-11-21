@@ -13,8 +13,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-010 Go; stand-in review, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [886848e] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-010 Go; stand-in review, not independent | [886848e] |
 
 ---
 
@@ -97,3 +97,4 @@ No step includes or extends another use case; UC-001 is the only use case.
 [MIL-003]: ../../milestones/mil-003-design.md
 [DM-001]: dm.md
 [SSD-001]: ssd.md
+[886848e]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/886848e8acbfb48d7acd520fb2a576482c3ba18f
