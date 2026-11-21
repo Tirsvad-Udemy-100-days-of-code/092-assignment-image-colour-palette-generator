@@ -11,8 +11,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | [a5b3ca4] |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-015 Go; stand-in review, not independent | [a5b3ca4] |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [c9725cd] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-015 Go; stand-in review, not independent | [c9725cd] |
 
 ---
 
@@ -61,4 +61,4 @@ error.
 [SSD-001]: ssd.md
 [DM-001]: dm.md
 [SD-001]: sd.md
-[a5b3ca4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/a5b3ca4135857fa57754cbc63c2203b48fba81df
+[c9725cd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/commit/c9725cdd07b56151b6af585b816cc2e87a5dc870
