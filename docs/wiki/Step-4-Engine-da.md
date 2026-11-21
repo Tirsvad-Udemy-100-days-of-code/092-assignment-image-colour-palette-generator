@@ -4,7 +4,7 @@
 
 Milepæl `MIL-004`. Branch og pull request: én for dette trin.
 
-![36 motortests består med 100 % dækning](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/04-engine-tests.png)
+![36 motortests består med 100 % dækning](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/04-engine-tests.png)
 
 ## Hvad blev gjort
 

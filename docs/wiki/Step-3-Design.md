@@ -4,7 +4,7 @@
 
 Milestone `MIL-003`. Branch and pull request: one for this step.
 
-![Use case UC-001](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/03-design-use-case.png)
+![Use case UC-001](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/03-design-use-case.png)
 
 ## What was done
 

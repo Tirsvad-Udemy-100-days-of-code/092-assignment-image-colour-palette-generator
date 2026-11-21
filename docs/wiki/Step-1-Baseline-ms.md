@@ -4,7 +4,7 @@
 
 Pencapaian `MIL-001`. Cabang dan permintaan tarik: satu untuk langkah ini.
 
-![Pelan Projek dengan enam pencapaian](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/01-baseline.png)
+![Pelan Projek dengan enam pencapaian](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/01-baseline.png)
 
 ## Apa yang dilakukan
 

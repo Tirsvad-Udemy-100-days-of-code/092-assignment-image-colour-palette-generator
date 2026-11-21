@@ -4,7 +4,7 @@
 
 Pencapaian `MIL-002`. Cabang dan permintaan tarik: satu untuk langkah ini.
 
-![Ujian asap lulus dalam .venv](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/02-scaffold-tests.png)
+![Ujian asap lulus dalam .venv](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/02-scaffold-tests.png)
 
 ## Apa yang dilakukan
 

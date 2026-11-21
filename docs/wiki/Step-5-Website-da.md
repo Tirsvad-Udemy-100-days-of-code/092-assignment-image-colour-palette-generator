@@ -4,9 +4,9 @@
 
 Milepæl `MIL-005`. Branch og pull request: én for dette trin.
 
-![Upload-siden](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-upload-form.png)
+![Upload-siden](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-upload-form.png)
 
-![De 10 mest almindelige farver i eksempelbilledet](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-top-ten-colours.png)
+![De 10 mest almindelige farver i eksempelbilledet](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-top-ten-colours.png)
 
 ## Hvad blev gjort
 

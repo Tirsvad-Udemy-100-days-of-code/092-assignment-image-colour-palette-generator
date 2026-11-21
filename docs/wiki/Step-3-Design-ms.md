@@ -4,7 +4,7 @@
 
 Pencapaian `MIL-003`. Cabang dan permintaan tarik: satu untuk langkah ini.
 
-![Kes guna UC-001](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/03-design-use-case.png)
+![Kes guna UC-001](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/03-design-use-case.png)
 
 ## Apa yang dilakukan
 

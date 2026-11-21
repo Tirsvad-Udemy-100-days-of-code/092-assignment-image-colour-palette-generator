@@ -4,9 +4,9 @@
 
 Milestone `MIL-005`. Branch and pull request: one for this step.
 
-![Upload page](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-upload-form.png)
+![Upload page](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-upload-form.png)
 
-![Top 10 colours of the sample image](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-top-ten-colours.png)
+![Top 10 colours of the sample image](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-top-ten-colours.png)
 
 ## What was done
 

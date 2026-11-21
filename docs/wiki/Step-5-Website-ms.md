@@ -4,9 +4,9 @@
 
 Pencapaian `MIL-005`. Cabang dan permintaan tarik: satu untuk langkah ini.
 
-![Halaman muat naik](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-upload-form.png)
+![Halaman muat naik](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-upload-form.png)
 
-![10 warna teratas imej contoh](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-top-ten-colours.png)
+![10 warna teratas imej contoh](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/05-website-top-ten-colours.png)
 
 ## Apa yang dilakukan
 

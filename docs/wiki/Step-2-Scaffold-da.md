@@ -4,7 +4,7 @@
 
 Milepæl `MIL-002`. Branch og pull request: én for dette trin.
 
-![Røgtestene består i .venv](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/02-scaffold-tests.png)
+![Røgtestene består i .venv](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/02-scaffold-tests.png)
 
 ## Hvad blev gjort
 

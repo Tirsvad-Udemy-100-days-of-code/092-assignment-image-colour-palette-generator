@@ -4,7 +4,7 @@
 
 Milestone `MIL-001`. Branch and pull request: one for this step.
 
-![Project Plan with the six milestones](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/01-baseline.png)
+![Project Plan with the six milestones](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/01-baseline.png)
 
 ## What was done
 

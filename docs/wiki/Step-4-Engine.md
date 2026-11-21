@@ -4,7 +4,7 @@
 
 Milestone `MIL-004`. Branch and pull request: one for this step.
 
-![36 engine tests passing with 100 % coverage](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/04-engine-tests.png)
+![36 engine tests passing with 100 % coverage](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/04-engine-tests.png)
 
 ## What was done
 

@@ -4,7 +4,7 @@
 
 Milestone `MIL-002`. Branch and pull request: one for this step.
 
-![Smoke tests passing in the .venv](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/02-scaffold-tests.png)
+![Smoke tests passing in the .venv](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/raw/branch/main/docs/images/02-scaffold-tests.png)
 
 ## What was done
 
