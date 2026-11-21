@@ -115,6 +115,7 @@ page per step that explains what was learned.
 | 1 | MIL-001 Baseline | Business case, stakeholders, project plan and milestones | [01-baseline.png](docs/images/01-baseline.png) |
 | 2 | MIL-002 Scaffold | `pyproject.toml`, `constants.py`, smoke test, `.gitignore`, `.editorconfig`, `Doxyfile`, this README | [02-scaffold-tests.png](docs/images/02-scaffold-tests.png) |
 | 3 | MIL-003 Design | Use case UC-001, ADR-0001 and ADR-0002, domain model, system sequence diagram, operation contract, sequence diagram and design class diagram | [03-design-use-case.png](docs/images/03-design-use-case.png) |
+| 4 | MIL-004 Engine | Pillow image reader, NumPy colour counting (`find_top_colours`), `PaletteService` and their unit tests | [04-engine-tests.png](docs/images/04-engine-tests.png) |
 
 ![Step 2: the smoke tests pass](docs/images/02-scaffold-tests.png)
 
