@@ -13,8 +13,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition: six milestones, one branch and pull request each | [4152bcb] |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-003 Go, stand-in, not independent | [4152bcb] |
+| 2026-11-21 | Proposed | S01 | S01 | First edition: six milestones, one branch and pull request each | [d2dd842] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-003 Go, stand-in, not independent | [d2dd842] |
 
 ---
 
@@ -114,4 +114,4 @@ None. OI-1 (prompt log) was closed on 2026-11-21: S01 accepted the plan with the
 [MIL-004]: ./milestones/mil-004-engine.md
 [MIL-005]: ./milestones/mil-005-website.md
 [MIL-006]: ./milestones/mil-006-release.md
-[4152bcb]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/4152bcb453201a7da2019cc9a96018ebed7a7b9e
+[d2dd842]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/commit/d2dd84230aab12940de05276d6d660dcf93af46c
