@@ -13,8 +13,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition: adds the concepts of DM-001 (UC-001) | [c20e18c] |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-018 Go; stand-in review, not independent | [c20e18c] |
+| 2026-11-21 | Proposed | S01 | S01 | First edition: adds the concepts of DM-001 (UC-001) | [64ca317] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted after review RC-018 Go; stand-in review, not independent | [64ca317] |
 
 ---
 
@@ -83,4 +83,4 @@ PaletteEntry "0..*" --> "1" Colour : names >
 
 [DM-001]: use-cases/uc-001-get-colour-palette/dm.md
 [UC-001]: use-cases/uc-001-get-colour-palette/uc.md
-[c20e18c]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/c20e18ceb5fd9c4a491def1f02c102743e0ed5ab
+[64ca317]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/commit/64ca317231ae27999f78d63c2226505b4905d226
