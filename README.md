@@ -122,17 +122,34 @@ open `docs/doxygen/html/index.html`.
 ## 🪜 Steps
 
 The project is built in steps, one branch and pull request each. The wiki has a
-page per step that explains what was learned.
+page per step that explains what was learned, in English, Danish and Bahasa
+Melayu, and a [reflection journal](docs/reflection.md).
 
-| Step | Milestone | What it adds | Screenshot |
-| --- | --- | --- | --- |
-| 1 | MIL-001 Baseline | Business case, stakeholders, project plan and milestones | [01-baseline.png](docs/images/01-baseline.png) |
-| 2 | MIL-002 Scaffold | `pyproject.toml`, `constants.py`, smoke test, `.gitignore`, `.editorconfig`, `Doxyfile`, this README | [02-scaffold-tests.png](docs/images/02-scaffold-tests.png) |
-| 3 | MIL-003 Design | Use case UC-001, ADR-0001 and ADR-0002, domain model, system sequence diagram, operation contract, sequence diagram and design class diagram | [03-design-use-case.png](docs/images/03-design-use-case.png) |
-| 4 | MIL-004 Engine | Pillow image reader, NumPy colour counting (`find_top_colours`), `PaletteService` and their unit tests | [04-engine-tests.png](docs/images/04-engine-tests.png) |
-| 5 | MIL-005 Website | Upload form, result page with swatches and HEX codes, error pages, web tests | [05-website-top-ten-colours.png](docs/images/05-website-top-ten-colours.png) |
+| Step | Milestone | What it adds | Screenshot | Wiki |
+| --- | --- | --- | --- | --- |
+| 1 | MIL-001 Baseline | Business case, stakeholders, project plan and milestones | [01-baseline.png](docs/images/01-baseline.png) | [Step 1](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/wiki/Step-1-Baseline) |
+| 2 | MIL-002 Scaffold | `pyproject.toml`, `constants.py`, smoke test, `.gitignore`, `.editorconfig`, `Doxyfile`, this README | [02-scaffold-tests.png](docs/images/02-scaffold-tests.png) | [Step 2](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/wiki/Step-2-Scaffold) |
+| 3 | MIL-003 Design | Use case UC-001, ADR-0001 and ADR-0002, domain model, system sequence diagram, operation contract, sequence diagram and design class diagram | [03-design-use-case.png](docs/images/03-design-use-case.png) | [Step 3](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/wiki/Step-3-Design) |
+| 4 | MIL-004 Engine | Pillow image reader, NumPy colour counting (`find_top_colours`), `PaletteService` and their unit tests | [04-engine-tests.png](docs/images/04-engine-tests.png) | [Step 4](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/wiki/Step-4-Engine) |
+| 5 | MIL-005 Website | Upload form, result page with swatches and HEX codes, error pages, web tests | [05-website-top-ten-colours.png](docs/images/05-website-top-ten-colours.png) | [Step 5](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/wiki/Step-5-Website) |
 
-The website after step 5, the upload page:
+Step 1, the Project Plan with its six milestones:
+
+![Step 1: Project Plan](docs/images/01-baseline.png)
+
+Step 2, the smoke tests passing in the `.venv`:
+
+![Step 2: Smoke tests](docs/images/02-scaffold-tests.png)
+
+Step 3, the use case UC-001:
+
+![Step 3: Use case UC-001](docs/images/03-design-use-case.png)
+
+Step 4, the engine tests with full coverage:
+
+![Step 4: Engine tests](docs/images/04-engine-tests.png)
+
+Step 5, the website. The upload page:
 
 ![Upload page](docs/images/05-website-upload-form.png)
 
