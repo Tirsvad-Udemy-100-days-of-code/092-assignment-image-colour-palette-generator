@@ -13,8 +13,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-007 Go, stand-in, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [4152bcb] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-007 Go, stand-in, not independent | [4152bcb] |
 
 ---
 
@@ -68,3 +68,4 @@ One branch `milestone/mil-004-engine` and one pull request that closes the issue
 [BC-001]: ../business-case.md
 [SA-001]: ../stakeholder-analysis.md
 [PP-001]: ../project-plan.md
+[4152bcb]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/4152bcb453201a7da2019cc9a96018ebed7a7b9e

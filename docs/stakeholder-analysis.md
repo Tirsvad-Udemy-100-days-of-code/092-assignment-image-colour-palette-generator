@@ -13,8 +13,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition with S01 to S03 | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-002 Go, stand-in, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition with S01 to S03 | [4152bcb] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-002 Go, stand-in, not independent | [4152bcb] |
 
 ---
 
@@ -64,3 +64,4 @@
 ---
 
 [BC-001]: ./business-case.md
+[4152bcb]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/4152bcb453201a7da2019cc9a96018ebed7a7b9e
