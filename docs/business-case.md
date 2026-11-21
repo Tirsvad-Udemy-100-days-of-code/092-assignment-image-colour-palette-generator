@@ -13,8 +13,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition for the Day 92 assignment | [4152bcb] |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-001 Go, stand-in, not independent | [4152bcb] |
+| 2026-11-21 | Proposed | S01 | S01 | First edition for the Day 92 assignment | [d2dd842] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-001 Go, stand-in, not independent | [d2dd842] |
 
 ---
 
@@ -24,7 +24,7 @@ Build a small website where a user uploads an image and gets the 10 most
 common colours in it, each as a swatch with its HEX code and its share of the
 image. The colour counting uses NumPy, as taught on Day 76 of the course. The
 project is the Day 92 assignment of "100 Days of Code: The Complete Python Pro
-Bootcamp" and is published in the organisation `Tirsvad-Udemy-100_days_of_code`
+Bootcamp" and is published in the organisation `Tirsvad-Udemy-100-days-of-code`
 as `092-assignment-image-colour-palette-generator`.
 
 **Recommendation: Go.** The cost is the course time budget of about 180
@@ -144,4 +144,4 @@ use case and design artifacts, and the plan-first gate of the framework
 
 [SA-001]: ./stakeholder-analysis.md
 [PP-001]: ./project-plan.md
-[4152bcb]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/092-assignment-image-colour-palette-generator/commit/4152bcb453201a7da2019cc9a96018ebed7a7b9e
+[d2dd842]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/092-assignment-image-colour-palette-generator/commit/d2dd84230aab12940de05276d6d660dcf93af46c
